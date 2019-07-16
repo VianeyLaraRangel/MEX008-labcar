@@ -1,1 +1,19 @@
-/*Estilo
+/*Estilo*/
+/*#2b2b2b*/
+/*#f7b617*/
+.container {   
+background-color: #2b2b2b;
+}
+
+.row{
+
+}
+
+.img {
+width: 100%;
+height: auto;
+};
+
+.texto-encima {
+    background-color: #f7b617;
+}
