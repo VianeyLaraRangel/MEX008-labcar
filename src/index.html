@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LabCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/MEX008-labcar/src/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!--Navbar -->
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="/MEX008-labcar/src/img/hamburguer-icon.png" alt=""></label>
+
+            <img src="/MEX008-labcar/src/img/logo.png" alt="LogoLabCar"> 
+            
+            <nav class="nav-bar">
+                <ul class="menu-desktop">
+                    <li>
+                        <a href="#">Viaja</a>
+                    </li>
+                    <li>
+                        <a href="#">Conduce</a>
+                    </li>
+                    <li>
+                        <a href="#">Inicia Sesión</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--Hero-->
+        <section>
+            <article class="row">
+                <img src="/MEX008-labcar/src/img/taxi.jpg" alt="Taxi" class="img-taxi">
+                <div class="texto-encima">
+                    <p>Disfruta del viaje</p>
+                    <p>Eres dueño de tu tiempo</p>
+                    <p>Viaja con <img src="/MEX008-labcar/src/img/logo-blanco.png" alt="LabCar"></p>
+                    <button>REGÍSTRATE</button>
+                    <p>O BIEN</p>
+                    <p>Conviértete en conductor</p>
+                </div>
+            </article>
+        </section>
+        <!--Información-->
+        <aside class="row">
+            <img src="/MEX008-labcar/src/img/celular.png" alt="Celular" class="img">
+            <div>
+                <p>Descarga la nueva app</p>
+                <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más
+                    fácil y rápido.</p>
+                <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más
+                    fácil y rápido.
+                </p>
+            </div>
+        </aside>
+        <!--Conduce-->
+        <section class="row">
+            <img src="/MEX008-labcar/src/img/conduce.jpg" alt="Conduce" class="img">
+            <div>
+                <p>Conduce cuando quieras</p>
+                <p>LabCar es una opción flexible para alcanzar tus metas financieras.
+                </p>
+                <p>Conviértete en conductor</p>
+            </div>
+        </section>
+        <!--Tarifa-->
+        <section>
+            <div>
+                <p>Tarifas</p>
+                <p>Consulta las tarifas LabCar aquí</p>
+                <i><img src="/MEX008-labcar/src/img/circulo.png" alt=""></i> <input type="text"
+                    placeholder="Ingrese punto de partida">
+                <br>
+                <i><img src="/MEX008-labcar/src/img/flecha.png" alt=""></i>
+                <input type="text" placeholder="Ingrese un destino">
+                <button>¡Trazar ruta!</button>
+            </div>
+            <div>Imagen del mapa</div>
+        </section>
+        <!--Footer-->
+        <footer>
+            <img src="/MEX008-labcar/src/img/logo-blanco.png" alt="LabCar">
+            <hr>
+            <p>Viaja</p>
+            <p>Conduce</p>
+            <p>Ciudades
+                Tarifas
+                Entregas
+                Cómo funciona
+                Países
+                Seguridad
+                Oportunidades
+                Nuestra historia
+                API de LabCar
+                Eventos
+                Desarrolladores
+                Servicios
+                Laboratoria
+                Coders
+            </p>
+            <img src="/MEX008-labcar/src/img/google-play.png" alt="google-play">
+            <img src="/MEX008-labcar/src/img/app-store.png" alt="app-store">
+            <i>Iconos de redes sociales</i>
+            <p>© 2017 LabCar technologies Inc.</p>
+        </footer>
+        <!--Modal inicia sesión-->
+        <section>
+            <div>
+                <img src="" alt="">
+                <br>
+                <i>Icono de persona</i>
+                <input type="text" placeholder="Username">
+                <i>Icono candado</i>
+                <input type="text" placeholder="Password">
+                <button>LOGING</button>
+                <p>Forgot password? Click Here</p>
+            </div>
+        </section>
+        <!--Modal de registrate-->
+        <section>
+            <div>
+                <p>Ya tienes una cuenta?</p>
+                <p>O CREA UNA CUENTA NUEVA</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="email" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                <input type="text" placeholder="Teléfono">
+                <input type="password" placeholder="Contraseña">
+                <input type="text" placeholder="Ciudad">
+                <input type="text" placeholder="(Opcional)Código de invitación">
+                <select name="Como te enteraste?" id="comoTeEnteraste">
+                    <option value="Facebook">Facebook|</option>
+                </select>
+                <button>ENVIAR</button>
+            </div>
+        </section>
+        <!--Modal conviertete en conductor-->
+        <section>
+            <label for="">¿Tienes vehiculo de 4 puertas?</label>
+            <input type="select">
+            <label for="">Marca</label>
+            <input type="text">
+            <p>¿No ves tu vehiculo en la lista? Envía un correo electronico a sociosmdv@uber.com</p>
+            <label for="">Modelo</label>
+            <input type="text">
+            <label for="">Año</label>
+            <input type="text">
+            <label for="">Matrícula</label>
+            <input type="text" placeholder="Número de la matrícula">
+            <p>La informacion de la matricula ayuda a los clientes a indentificar tu vehiculo</p>
+            <button>ENVIAR</button>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/8766b10af8.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
