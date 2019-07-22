@@ -38,7 +38,7 @@
     }
 
 
-    /* #btn-menu:checked~.menu-desktop{
+    #btn-menu:checked ~ .menu-desktop{
         margin-left: 0%;
-    } */
+    }
 }
