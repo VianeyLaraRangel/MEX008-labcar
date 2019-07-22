@@ -7,15 +7,24 @@ body {
 }
 
 header {
-  background-color: greenyellow;
+  background-color: white;
   width: 100%;
   height: 70px;
 }
 
-header img {
+.logo-labcar {
  position: fixed;
- padding: 10px 20px;
+ padding: 20px 30px;
 }
+
+#btn-menu {
+  display: none;
+}
+
+/* .icon-hamburger {
+  display: flex;
+  justify-content: center;
+} */
 
 header label {
   display: none;
@@ -29,21 +38,18 @@ header label:hover {
     background: rgba(0,0,0,0.3);
 }
 
-#btn-menu {
-  display: none;
-}
-
 .nav-bar ul {
 margin: 0;
 list-style: none;
 padding: 15px 30px;
 display: flex;
 justify-content: flex-end;
+flex-direction: row;
 }
 
 .menu-desktop li a {
   display: block;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-decoration: none;
   color: #000000;
 }
