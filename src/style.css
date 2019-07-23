@@ -37,14 +37,6 @@ header {
  width: 10em;
 }
 
-/* .hamburger-icon {
-  background-image: url(/MEX008-labcar/src/img/hamburguer-icon.png);
-} */
-
-#btn-menu {
-  display: none;
-}
-
 header label {
   display: none;
   width: 70px;
@@ -100,7 +92,19 @@ header label {
   border-radius: 10px;
   background-color: whitesmoke;
   color: #000000;
+  font-size-adjust: initial;
+  font-size: 1em;
+  height: 2em;
+  width: 9em;
+}
 
+/*Ocultando mobile*/
+#btn-menu {
+  display: none;
+}
+
+#mobile-data {
+  display:none;
 }
 
 /*#2b2b2b & #f7b617*/

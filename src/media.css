@@ -15,17 +15,13 @@
         margin-left: 5em;
         margin-top: 1em;
        }
-
-    .hamburger-icon {
-           display: flex;
-    }
-
+       /*Este menú pasa a estar dentro del icono hamburgesa*/
     .menu-desktop {
         position: absolute;
         background-color: white;
         text-align: center;
-        width: 50%;
-        margin-left: -60%;
+        width: 40%;
+        margin-left: -50%;
     }
 
     .nav-bar ul {
@@ -35,11 +31,28 @@
     .menu-desktop li {
         border-top: 1px solid black;
     }
+
+    .hero-data { 
+        background-color: #f7b617;
+        width: 70%;
+        height: 40%;
+      }
+
+    .mobile-data {
+         padding: 10px 5px 10px 30px;
+    }
     /*Para comprobar que el checkbox funciona*/
         /* #btn-menu {
             display: block;
         } */
     #btn-menu:checked ~ .menu-desktop{
         margin-left: 0%;
+    }
+    /*Para mostrar la data mobile y esconder la desktop*/
+    #mobile-data {
+        display: block;
+    }
+    #desktop-data {
+        display: none;
     }
 }
