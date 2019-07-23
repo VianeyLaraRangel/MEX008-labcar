@@ -1,4 +1,9 @@
 /*Estilo para todo el canvas*/
+/*Estableciendo flexbox*/
+/* nav, section, footer {
+    display: flex;
+} */
+
 html {
   box-sizing: border-box;
 }
@@ -13,10 +18,6 @@ body {
   padding: 0%;
   width: 100%;
 }
-/*Estableciendo flexbox*/
-/* nav, section, footer {
-    display: flex;
-} */
 
 /*Inicia navbar desktop*/
 header {
@@ -27,7 +28,7 @@ header {
 }
 
 .logo-labcar {
- background-image: url('/MEX008-labcar/src/img/logo.png');
+ background-image: url(/MEX008-labcar/src/img/logo.png);
  background-repeat: no-repeat;
  background-position-x: 2em;
  background-position-y: 1em;
@@ -60,9 +61,15 @@ header label {
   color: #000000;
 }
 
-.menu-desktop li:hover {
+.menu-desktop li:hover a {
   cursor: pointer;
-  background: rgba(0,0,0,0.3);
+  background: #000000;
+  color: whitesmoke;
+}
+
+/*Ocultando mobile*/
+#btn-menu {
+  display: none;
 }
 /*Termina navbar desktop*/
 /*Inicia sección Hero*/
@@ -72,7 +79,7 @@ header label {
   background-size: cover;
   background-position: center bottom;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -113,12 +120,19 @@ header label {
 }
 
 /*Ocultando mobile*/
-#btn-menu {
-  display: none;
-}
-
 #mobile-data {
   display:none;
 }
+/*Termina section Hero*/
+/*Inicia aside information*/
+.row-information {
+  background-color: #f7b617;
+  height: 80vh;
 
+}
+
+.information-desktop {
+  display: block;
+}
+/*Termina aside information*/
 /*#2b2b2b & #f7b617*/

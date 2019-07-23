@@ -1,4 +1,5 @@
 @media (max-width:768px){
+    /*Inicia navbar*/
     header {
         background-color: white;
         width: 100%;
@@ -20,7 +21,7 @@
         position: absolute;
         background-color: white;
         text-align: center;
-        width: 40%;
+        width: 30%;
         margin-left: -50%;
     }
 
@@ -31,7 +32,14 @@
     .menu-desktop li {
         border-top: 1px solid black;
     }
-
+    /*Para comprobar que el checkbox funciona*/
+        /* #btn-menu {
+            display: block;
+        } */
+        #btn-menu:checked ~ .menu-desktop{
+            margin-left: 0%;
+        }
+    /*Termina navbar*/
     .hero-data { 
         background-color: #f7b617;
         width: 80%;
@@ -42,13 +50,7 @@
          padding: 5px 20px 5px 50px;
          font-size: 1.8em;
     }
-    /*Para comprobar que el checkbox funciona*/
-        /* #btn-menu {
-            display: block;
-        } */
-    #btn-menu:checked ~ .menu-desktop{
-        margin-left: 0%;
-    }
+    
     /*Para mostrar la data mobile y esconder la desktop*/
     #mobile-data {
         display: block;
