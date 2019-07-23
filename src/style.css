@@ -23,27 +23,27 @@ header {
   background-color: white;
   width: 100%;
   height: 10vh;
+  position: absolute;
 }
 
 .logo-labcar {
- background-image: url(/MEX008-labcar/src/img/logo.png);
+ background-image: url('/MEX008-labcar/src/img/logo.png');
  background-repeat: no-repeat;
  background-position-x: 2em;
  background-position-y: 1em;
- position: fixed;
+ position: absolute;
  padding: 10px 30px;
- height: 2em;
- width: 8.5em;
+ height: 2.5em;
+ width: 10em;
 }
+
+/* .hamburger-icon {
+  background-image: url(/MEX008-labcar/src/img/hamburguer-icon.png);
+} */
 
 #btn-menu {
   display: none;
 }
-
-/* .icon-hamburger {
-  display: flex;
-  justify-content: center;
-} */
 
 header label {
   display: none;
@@ -76,7 +76,7 @@ header label {
 /*Inicia sección Hero*/
 
 .hero-section {
-  background-image: url(img/taxi.jpg);
+  background-image: url('img/taxi.jpg');
   background-size: cover;
   background-position: center bottom;
   width: 100%;
