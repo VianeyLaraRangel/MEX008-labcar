@@ -2,7 +2,7 @@
     header {
         background-color: white;
         width: 100%;
-        height: 70px;
+        height: auto;
       }
     header label {
         display: flex;
@@ -10,8 +10,10 @@
     }
     
     .logo-labcar {
-        margin-left: 4em;
-        margin-top: 1.2em;
+        background-image: url('/MEX008-labcar/src/img/logo.png');
+        background-repeat: no-repeat;
+        margin-left: 5em;
+        margin-top: 1em;
        }
 
     .hamburger-icon {
@@ -34,9 +36,9 @@
         border-top: 1px solid black;
     }
     /*Para comprobar que el checkbox funciona*/
-    /* #btn-menu {
-        display: block;
-    } */
+        /* #btn-menu {
+            display: block;
+        } */
     #btn-menu:checked ~ .menu-desktop{
         margin-left: 0%;
     }

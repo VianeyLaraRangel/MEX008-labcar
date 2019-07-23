@@ -52,11 +52,6 @@ header label {
   padding: 15px 5px 5px 5px;
 }
 
-header label:hover {
-    cursor: pointer;
-    background: rgba(0,0,0,0.3);
-}
-
 .nav-bar ul {
   display: flex;
   justify-content: flex-end;
