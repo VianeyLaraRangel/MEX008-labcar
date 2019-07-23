@@ -40,6 +40,7 @@
             margin-left: 0%;
         }
     /*Termina navbar*/
+    /*Inicia section Hero*/
     .hero-data { 
         background-color: #f7b617;
         width: 80%;
@@ -52,13 +53,23 @@
     }
     
     /*Para mostrar la data mobile y esconder la desktop*/
-    #mobile-data {
+    /* #mobile-data {
         display: block;
-    }
-    #desktop-data {
+    } */
+    /* #desktop-data {
         display: none;
-    }
+    } */
     .button-hero {
         width: 8rem;
     }
+    /*Termina section Hero*/
+    /*Inicia aside information*/
+    .information-desktop {
+        display: none;
+      }
+      
+      .information-mobile {
+        display: block;
+      }
+    /*Termina aside information*/
 }
